@@ -40,3 +40,30 @@ Negative ->	0.891652
 Neutral	-> 1.039401
 Positive -> 3.522094
 These results highlight the strong engagement with positive sentiment tweets about Tesla compared to neutral or negative ones.
+**Key Insights**
+Most tweets express neutral sentiment about Tesla.
+Engagement (likes) is highest for positive tweets, followed by neutral and negative ones.
+Clustering confirmed a strong alignment between sentiment labels and engagement trends.
+
+**Project Overview**
+
+This project focuses on analyzing Tesla-related tweets to understand public sentiment and the relationship between sentiments and engagement (likes). The analysis involves data collection, cleaning, sentiment analysis, clustering, and visualizations. Below is a breakdown of the workflow:
+
+**1. Data Acquisition**
+Source: The dataset was sourced from Kaggle, containing approximately 10,000 rows of Tesla-related tweets.
+Storage: Data was fetched from MongoDB Atlas using Python's pymongo library.
+**2. Data Cleaning**
+Removed unnecessary columns, duplicates, and rows with missing values.
+Cleaned the tweet text by:
+Removing URLs, mentions, hashtags, and special characters.
+Converting text to lowercase for uniformity.
+**3. Sentiment Analysis**
+Conducted using the TextBlob library to classify tweets into Positive, Neutral, or Negative sentiments.
+Updated the MongoDB collection with sentiment labels.
+**4. Clustering and Correlation Analysis**
+**Clustering:**
+Created TF-IDF vectors from cleaned tweets to quantify the textual data.
+Applied K-Means clustering to group tweets into three clusters corresponding to Positive, Neutral, and Negative sentiments.
+**Correlation Analysis:**
+Calculated the average number of likes for each sentiment group to identify engagement trends.
+**5. Visualizations**
