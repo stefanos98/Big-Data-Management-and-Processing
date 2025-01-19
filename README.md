@@ -32,7 +32,7 @@ Correlation Between Likes and Sentiment
 The following table summarizes the correlation between sentiment categories and the number of likes:
 
 Predicted Sentiment	Average Likes
-Negative	0.891652
-Neutral	1.039401
-Positive	3.522094
+Negative ->	0.891652
+Neutral	-> 1.039401
+Positive -> 3.522094
 These results highlight the strong engagement with positive sentiment tweets about Tesla compared to neutral or negative ones.
