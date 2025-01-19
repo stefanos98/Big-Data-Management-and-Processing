@@ -19,10 +19,14 @@ You will need to update the whitelisted IP address in MongoDB Atlas before rerun
 
 
 **Analysis Results:**
-Sentiment Analysis of Tesla Tweets
+
+**Dataset Information**
+The dataset used for this analysis was sourced from Kaggle and contains approximately 10,000 rows of Tesla-related tweets.
+
+**Sentiment Analysis of Tesla Tweets**
 The majority of people expressed neutral thoughts about Tesla based on sentiment analysis conducted on tweets. This conclusion is drawn from the analysis of tweet content and the number of likes each tweet received.
 
-Clustering Insights
+**Clustering Insights**
 Through clustering, I observed the following relationship between likes and sentiment:
 
 Positive tweets receive the highest number of likes.
