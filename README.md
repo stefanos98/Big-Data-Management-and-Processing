@@ -18,7 +18,7 @@ Each time the connection is interrupted (e.g., when Google Colab resets), the IP
 You will need to update the whitelisted IP address in MongoDB Atlas before rerunning the notebook or reconnecting.
 
 
-**Analysis Results**
+**Analysis Results:**
 Sentiment Analysis of Tesla Tweets
 The majority of people expressed neutral thoughts about Tesla based on sentiment analysis conducted on tweets. This conclusion is drawn from the analysis of tweet content and the number of likes each tweet received.
 
