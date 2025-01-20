@@ -17,7 +17,7 @@ http://localhost:8888/notebooks/Big%20Data%20Management%20and%20Processing%20Hom
 Each time the connection is interrupted (e.g., when Google Colab resets), the IP address will change.
 You will need to update the whitelisted IP address in MongoDB Atlas before rerunning the notebook or reconnecting.
 
-In this project we applies on the 5 dimensions of Big Data ( **The 5 Vs**):
+This project applies on the 5 dimensions of Big Data ( **The 5 Vs**):
 1. Volume (The scale of data being processed)
 2. Velocity (The speed at which data is generated and processed)
 3. Variety (The diversity of data types)
