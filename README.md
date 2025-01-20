@@ -54,6 +54,7 @@ Clustering confirmed a strong alignment between sentiment labels and engagement 
 **Project Overview**
 
 This project focuses on analyzing Tesla-related tweets to understand public sentiment and the relationship between sentiments and engagement (likes). The analysis involves data collection, cleaning, sentiment analysis, clustering, and visualizations. Below is a breakdown of the workflow:
+In this project, I connected MongoDB Compass with MongoDB Atlas, enabling seamless interaction with the database. This connection allowed me to manage, query, and update data efficiently throughout the analysis process.
 
 **1. Data Acquisition**
 Source: The dataset was sourced from Kaggle, containing approximately 10,000 rows of Tesla-related tweets.
