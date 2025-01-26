@@ -1,4 +1,4 @@
-# Big-Data-Management-and-Processing
+# Big-Data-Sentiment Analysis
 Big Data Management and Processing Homework 
 
 #You may find below the url for Sentiment Analysis from tweets about Tesla. 
